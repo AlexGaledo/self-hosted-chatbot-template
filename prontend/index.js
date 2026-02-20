@@ -55,7 +55,7 @@ function removeTyping() {
   if (el) el.remove();
 }
 
-// ── Send flow ────────────────────────────────────────
+// ── Chat flow ────────────────────────────────────────
 
 async function sendMessage() {
   const text = chatInput.value.trim();

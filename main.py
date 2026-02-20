@@ -7,7 +7,7 @@ import os
 
 app = FastAPI()
 
-# Enable CORS for frontend calls
+# Enable CORS
 from fastapi.middleware.cors import CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
@@ -22,7 +22,7 @@ frontend_path = os.path.join(os.path.dirname(__file__), "prontend")
 # Mount the folder so all CSS/JS/images are accessible
 app.mount("/static", StaticFiles(directory=frontend_path), name="static")
 
-# Chat API
+# Pydantic model for chat request
 class ChatRequest(BaseModel):
     message: str
 
@@ -33,6 +33,8 @@ def serve_ui():
     # Serve index.html
     return FileResponse(os.path.join(frontend_path, "index.html"))
 
+
+#chatbot endpoint
 @app.post("/chat")
 def chat(req: ChatRequest):
     user_message = req.message
