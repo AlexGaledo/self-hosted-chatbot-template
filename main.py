@@ -1,10 +1,14 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
 import requests
+import os
 
 app = FastAPI()
 
+# Enable CORS for frontend calls
+from fastapi.middleware.cors import CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -12,35 +16,35 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Local Ollama API
-ollama_server = "http://localhost:12345"
+# Path to frontend folder
+frontend_path = os.path.join(os.path.dirname(__file__), "prontend")
 
+# Mount the folder so all CSS/JS/images are accessible
+app.mount("/static", StaticFiles(directory=frontend_path), name="static")
+
+# Chat API
 class ChatRequest(BaseModel):
     message: str
 
-@app.get('/')
-def index():
-    return {"response": "HellowBot is running!"}
+ollama_server = "http://127.0.0.1:11434"  # default Ollama
+
+@app.get("/")
+def serve_ui():
+    # Serve index.html
+    return FileResponse(os.path.join(frontend_path, "index.html"))
 
 @app.post("/chat")
 def chat(req: ChatRequest):
     user_message = req.message
-
     payload = {
         "model": "phi",
         "prompt": user_message,
-        "max_tokens": 150,
-        "temperature": 0.7
+        "stream": False
     }
-
     try:
-        response = requests.post(f"{ollama_server}/v1/completions", json=payload)
+        response = requests.post(f"{ollama_server}/api/generate", json=payload)
         data = response.json()
-        ollama_reply = data.get("choices", [{}])[0].get("text", "").strip()
+        ollama_reply = data.get("response", "").strip()
     except Exception as e:
         ollama_reply = f"Error contacting Ollama: {e}"
-
-    return {
-        "user_message": user_message,
-        "ollama_response": ollama_reply
-    }
+    return {"user_message": user_message, "ollama_response": ollama_reply}
