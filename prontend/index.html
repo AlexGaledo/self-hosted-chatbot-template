@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hellowbot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Header -->
+    <div class="chat-header">
+      <div class="bot-avatar">🤖</div>
+      <div class="bot-info">
+        <span class="bot-name">hellowbot</span>
+        <span class="bot-status">online</span>
+      </div>
+    </div>
+
+    <!-- Messages -->
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot">
+        <div class="message-avatar">🤖</div>
+        <div class="message-bubble">
+          Hey there! I'm <strong>hellowbot</strong>. How can I help you today?
+        </div>
+      </div>
+
+      <div class="message user">
+        <div class="message-bubble">Hi! What can you do?</div>
+      </div>
+
+      <div class="message bot">
+        <div class="message-avatar">🤖</div>
+        <div class="message-bubble">
+          I can chat with you, answer questions, and keep you company! 😊
+        </div>
+      </div>
+    </div>
+
+    <!-- Input -->
+    <div class="chat-input-area">
+      <input
+        type="text"
+        class="chat-input"
+        id="chatInput"
+        placeholder="Type a message..."
+        autocomplete="off"
+      />
+      <button class="send-btn" id="sendBtn" aria-label="Send message">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
