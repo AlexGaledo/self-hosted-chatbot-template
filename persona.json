@@ -1,0 +1,167 @@
+{
+  "game": "Persona 3 Reload",
+  "total_personas": 170,
+  "personas_by_arcana": {
+    "Fool": [
+      {
+        "name": "Orpheus",
+        "type": "Initial",
+        "description": "The protagonist’s starting Persona. Uses fire skills and represents rebirth and untapped potential."
+      },
+      {
+        "name": "Thanatos",
+        "type": "Special Fusion",
+        "description": "A powerful dark Persona symbolizing death and the protagonist’s hidden power."
+      },
+      {
+        "name": "Orpheus Telos",
+        "type": "Ultimate",
+        "description": "Ultimate form of Orpheus with near-universal resistances and endgame viability."
+      }
+    ],
+
+    "Magician": [
+      { "name": "Nekomata", "type": "Fusion", "description": "Agile fire-based Persona with balanced magic and speed." },
+      { "name": "Jack Frost", "type": "Fusion", "description": "Iconic ice Persona known for strong early-game magic." },
+      { "name": "Pyro Jack", "type": "Fusion", "description": "Fire-specialist Persona with strong elemental offense." },
+      { "name": "Hua Po", "type": "Fusion", "description": "Fire Persona with charm and supportive magic skills." },
+      { "name": "Sati", "type": "Fusion", "description": "Mid-tier fire Persona with solid magic growth." },
+      { "name": "Orobas", "type": "Fusion", "description": "Fire-based Persona with supportive and buffing skills." },
+      { "name": "Rangda", "type": "Fusion", "description": "High-level Persona with strong curse and magic attacks." },
+      { "name": "Trismegistus", "type": "Party (Junpei Awakened)", "description": "Junpei’s awakened Persona with enhanced fire and physical power." },
+      { "name": "Hermes", "type": "Party (Junpei Base)", "description": "Junpei’s starting Persona specializing in fire and agility." }
+    ],
+
+    "Priestess": [
+      { "name": "Apsaras", "type": "Fusion", "description": "Ice-aligned Persona with early healing support." },
+      { "name": "High Pixie", "type": "Fusion", "description": "Light magic Persona focused on support and buffs." },
+      { "name": "Unicorn", "type": "Fusion", "description": "Support Persona with healing and light-element skills." },
+      { "name": "Sarasvati", "type": "Fusion", "description": "Mid-tier Persona with ice magic and support abilities." },
+      { "name": "Kikuri-Hime", "type": "Fusion", "description": "Healing-focused Persona with recovery specialization." },
+      { "name": "Scathach", "type": "Fusion", "description": "High-level Persona with powerful ice magic." },
+      { "name": "Medea", "type": "Party (Mitsuru Base)", "description": "Mitsuru’s starting Persona specializing in ice and status effects." },
+      { "name": "Artemisia", "type": "Party (Mitsuru Awakened)", "description": "Enhanced ice Persona with stronger magic output." }
+    ],
+
+    "Empress": [
+      { "name": "Leanan Sidhe", "type": "Fusion", "description": "Support Persona known for boosting magic attacks." },
+      { "name": "Lamia", "type": "Fusion", "description": "Dark-aligned Persona with curse abilities." },
+      { "name": "Gorgon", "type": "Fusion", "description": "Persona specializing in petrification and ailments." },
+      { "name": "Hariti", "type": "Fusion", "description": "Healing Persona with strong recovery spells." },
+      { "name": "Gabriel", "type": "Fusion", "description": "High-tier Persona with powerful wind magic." },
+      { "name": "Penthesilea", "type": "Party (Fuuka Base)", "description": "Fuuka’s support Persona focused on scanning and buffs." },
+      { "name": "Juno", "type": "Party (Fuuka Awakened)", "description": "Advanced support Persona with enhanced team-wide buffs." }
+    ],
+
+    "Emperor": [
+      { "name": "Forneus", "type": "Fusion", "description": "Water-aligned Persona with balanced early skills." },
+      { "name": "Take-Mikazuchi", "type": "Fusion", "description": "Electric Persona with physical and lightning attacks." },
+      { "name": "King Frost", "type": "Fusion", "description": "Strong ice Persona with high magic output." },
+      { "name": "Odin", "type": "Fusion", "description": "High-tier electric Persona known for Thunder Reign." }
+    ],
+
+    "Hierophant": [
+      { "name": "Omoikane", "type": "Fusion", "description": "Support Persona with buffing abilities." },
+      { "name": "Shiisaa", "type": "Fusion", "description": "Electric Persona with balanced offense." },
+      { "name": "Flauros", "type": "Fusion", "description": "Fusion-heavy Persona with fire and physical skills." },
+      { "name": "Daisoujou", "type": "Fusion", "description": "Light-based Persona with strong instant-kill spells." },
+      { "name": "Castor", "type": "Party (Shinjiro)", "description": "Physical powerhouse Persona with strong attack skills." }
+    ],
+
+    "Lovers": [
+      { "name": "Pixie", "type": "Fusion", "description": "Early-game healer with light magic." },
+      { "name": "Queen Mab", "type": "Fusion", "description": "Electric Persona with supportive buffs." },
+      { "name": "Narcissus", "type": "Fusion", "description": "Wind Persona with charm abilities." },
+      { "name": "Titania", "type": "Fusion", "description": "High-tier wind Persona with strong magic damage." },
+      { "name": "Io", "type": "Party (Yukari Base)", "description": "Yukari’s wind-based healing Persona." },
+      { "name": "Isis", "type": "Party (Yukari Awakened)", "description": "Enhanced wind Persona with stronger recovery skills." }
+    ],
+
+    "Chariot": [
+      { "name": "Ara Mitama", "type": "Fusion", "description": "Physical Persona with strong attack growth." },
+      { "name": "Nata Taishi", "type": "Fusion", "description": "Physical-focused Persona with strike skills." },
+      { "name": "Thor", "type": "Fusion", "description": "High-level electric and physical Persona." },
+      { "name": "Polydeuces", "type": "Party (Akihiko Base)", "description": "Akihiko’s lightning-based balanced Persona." },
+      { "name": "Caesar", "type": "Party (Akihiko Awakened)", "description": "Enhanced lightning Persona with stronger physical output." }
+    ],
+
+    "Justice": [
+      { "name": "Archangel", "type": "Fusion", "description": "Light-based Persona with early bless skills." },
+      { "name": "Principality", "type": "Fusion", "description": "Bless Persona with support and light damage." },
+      { "name": "Virtue", "type": "Fusion", "description": "Mid-tier bless Persona with defensive traits." },
+      { "name": "Nemesis", "type": "Party (Ken Base)", "description": "Ken’s light-based Persona with healing support." }
+    ],
+
+    "Hermit": [
+      { "name": "Yomotsu-Shikome", "type": "Fusion", "description": "Dark Persona with curse specialization." },
+      { "name": "Lamia", "type": "Fusion", "description": "Curse-based Persona with ailment skills." },
+      { "name": "Kurama Tengu", "type": "Fusion", "description": "Wind Persona with agility and buffs." }
+    ],
+
+    "Strength": [
+      { "name": "Valkyrie", "type": "Fusion", "description": "Physical Persona with balanced stats." },
+      { "name": "Rakshasa", "type": "Fusion", "description": "Physical attacker with strong strike skills." },
+      { "name": "Hanuman", "type": "Fusion", "description": "High-tier physical Persona with agility." },
+      { "name": "Cerberus", "type": "Party (Koromaru Base)", "description": "Fire and dark Persona with high crit potential." }
+    ],
+
+    "Hanged Man": [
+      { "name": "Inugami", "type": "Fusion", "description": "Fire Persona with balanced growth." },
+      { "name": "Orthrus", "type": "Fusion", "description": "Two-headed beast Persona with fire skills." },
+      { "name": "Attis", "type": "Fusion", "description": "High-level Persona with revival capabilities." }
+    ],
+
+    "Death": [
+      { "name": "Ghoul", "type": "Fusion", "description": "Dark Persona with curse abilities." },
+      { "name": "Loa", "type": "Fusion", "description": "Curse-based Persona with debuffs." },
+      { "name": "Mot", "type": "Fusion", "description": "High-level dark Persona with strong magic." },
+      { "name": "Thanatos", "type": "Special Fusion", "description": "Legendary dark Persona symbolizing death." }
+    ],
+
+    "Temperance": [
+      { "name": "Mithra", "type": "Fusion", "description": "Light Persona with balanced magic." },
+      { "name": "Suzaku", "type": "Fusion", "description": "Fire Persona with strong elemental focus." },
+      { "name": "Byakko", "type": "Fusion", "description": "Wind Persona with balanced offense." }
+    ],
+
+    "Devil": [
+      { "name": "Incubus", "type": "Fusion", "description": "Dark Persona with charm and curse skills." },
+      { "name": "Succubus", "type": "Fusion", "description": "Ailment-focused Persona with drain skills." },
+      { "name": "Beelzebub", "type": "Fusion", "description": "High-tier dark Persona with powerful curse magic." }
+    ],
+
+    "Tower": [
+      { "name": "Eligor", "type": "Fusion", "description": "Physical Persona with strong strike skills." },
+      { "name": "Cu Chulainn", "type": "Fusion", "description": "High-level wind and pierce Persona." },
+      { "name": "Masakado", "type": "Fusion", "description": "Endgame Persona with exceptional stats and resistances." }
+    ],
+
+    "Star": [
+      { "name": "Nandi", "type": "Fusion", "description": "Physical Persona with balanced attributes." },
+      { "name": "Garuda", "type": "Fusion", "description": "Wind Persona with strong elemental output." },
+      { "name": "Helel", "type": "Fusion", "description": "Top-tier light Persona with powerful bless magic." }
+    ],
+
+    "Moon": [
+      { "name": "Gurr", "type": "Fusion", "description": "Dark Persona with physical attack growth." },
+      { "name": "Seth", "type": "Fusion", "description": "High-level Persona with almighty and physical skills." },
+      { "name": "Sandalphon", "type": "Fusion", "description": "Light Persona with strong bless capabilities." }
+    ],
+
+    "Sun": [
+      { "name": "Yatagarasu", "type": "Fusion", "description": "Wind Persona with agility and support skills." },
+      { "name": "Horus", "type": "Fusion", "description": "Fire Persona with strong elemental damage." },
+      { "name": "Asura", "type": "Fusion", "description": "High-tier physical Persona with multi-hit attacks." }
+    ],
+
+    "Judgement": [
+      { "name": "Anubis", "type": "Fusion", "description": "Balanced Persona with light and dark resistance." },
+      { "name": "Messiah", "type": "Special Fusion", "description": "Ultimate Judgement Persona with powerful almighty magic." }
+    ],
+
+    "Aeon": [
+      { "name": "Palladion", "type": "Party (Aigis Base)", "description": "Aigis’ defensive physical Persona." },
+      { "name": "Athena", "type": "Party (Aigis Awakened)", "description": "Enhanced Persona with strong defensive and light skills." }
+    ]
+  }
+}
